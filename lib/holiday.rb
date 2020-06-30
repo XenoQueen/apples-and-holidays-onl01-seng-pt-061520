@@ -60,7 +60,7 @@ def all_supplies_in_holidays(holiday_hash)
       array = holiday.to_s.split("_")
       final_holiday = []
         array.each do |h|
-          final_holiday.
+          final_holiday << h.capitalize!
 end
 
 def all_holidays_with_bbq(holiday_hash)
