@@ -61,6 +61,8 @@ def all_supplies_in_holidays(holiday_hash)
       final_holiday = []
         array.each do |h|
           final_holiday << h.capitalize!
+        end
+        
 end
 
 def all_holidays_with_bbq(holiday_hash)
